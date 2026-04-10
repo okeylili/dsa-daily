@@ -8,3 +8,19 @@ class Solution{
             return sum;
 		}
 };
+
+class Solution{	
+	public:
+		int NnumbersSum(int N){
+			int sum = (N * (N + 1)) / 2;
+            return sum;
+		}
+};
+
+class Solution:
+public:
+int NumbersSum(int N) {
+if(N==1) return;
+return N + NumbersSum(N-1);
+}
+
